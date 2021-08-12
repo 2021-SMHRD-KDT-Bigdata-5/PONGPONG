@@ -7,7 +7,7 @@
 <html>
 	<head>
 	<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
-		<title>COMPANY PAGE</title>
+		<title>글쓰기 페이지</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -21,21 +21,30 @@
 					<div id="main">
 						<div class="inner">
 
-							<!-- Header -->
-								<header id="header">
-									<a href="index1.jsp" class="logo"><strong style="font-size: xx-large; color:#f56a6a;">Campus Community : CC</strong></a>
-									<ul class="icons">
-										<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-										<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-										<li><a href="#" class="icon brands fa-snapchat-ghost"><span class="label">Snapchat</span></a></li>
-										<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-										<li><a href="#" class="icon brands fa-medium-m"><span class="label">Medium</span></a></li>
-									</ul>
-								</header>
+						
+				<!-- Header -->
+				<header id="header">
+					<!-- #f56a6a 메인 컬러 -->
+					<a href="index1.jsp" class="logo"><strong
+						style="font-size: xx-large; color: #f56a6a;">Campus
+							Community : CC</strong></a>
+					<ul class="icons">
+						<li><a href="#" class="icon brands fa-twitter"><span
+								class="label">Twitter</span></a></li>
+						<li><a href="#" class="icon brands fa-facebook-f"><span
+								class="label">Facebook</span></a></li>
+						<li><a href="#" class="icon brands fa-snapchat-ghost"><span
+								class="label">Snapchat</span></a></li>
+						<li><a href="#" class="icon brands fa-instagram"><span
+								class="label">Instagram</span></a></li>
+						<li><a href="#" class="icon brands fa-medium-m"><span
+								class="label">Medium</span></a></li>
+					</ul>
+				</header>
 
 							<!-- Form -->
 							<br>
-					<h3>BUDDY BOARD</h3>
+					<h3>WRITE BOARD</h3>
 
 					<form method="post" action="#">
 						<div class="row gtr-uniform">
@@ -51,33 +60,23 @@
 							<div class="col-12">
 								<select name="demo-category" id="demo-category">
 									<option value="">- Category -</option>
-									<option value="1">Manufacturing</option>
-									<option value="1">Shipping</option>
-									<option value="1">Administration</option>
-									<option value="1">Human Resources</option>
+									<option value="1">동아리 모집</option>
+									<option value="1">취업 스터디 모집</option>
+									<option value="1">친구 찾기</option>
 								</select>
 							</div>
 							<!-- Break -->
 							<div class="col-4 col-12-small">
 								<input type="radio" id="demo-priority-low" name="demo-priority"
-									checked> <label for="demo-priority-low">Low</label>
+									checked> <label for="demo-priority-low">1학년까지</label>
 							</div>
 							<div class="col-4 col-12-small">
 								<input type="radio" id="demo-priority-normal"
-									name="demo-priority"> <label for="demo-priority-normal">Normal</label>
+									name="demo-priority"> <label for="demo-priority-normal">2학년까지</label>
 							</div>
 							<div class="col-4 col-12-small">
 								<input type="radio" id="demo-priority-high" name="demo-priority">
-								<label for="demo-priority-high">High</label>
-							</div>
-							<!-- Break -->
-							<div class="col-6 col-12-small">
-								<input type="checkbox" id="demo-copy" name="demo-copy">
-								<label for="demo-copy">Email me a copy</label>
-							</div>
-							<div class="col-6 col-12-small">
-								<input type="checkbox" id="demo-human" name="demo-human" checked>
-								<label for="demo-human">I am a human</label>
+								<label for="demo-priority-high">3학년까지</label>
 							</div>
 							<!-- Break -->
 							<div class="col-12">
@@ -87,9 +86,9 @@
 							<!-- Break -->
 							<div class="col-12">
 								<ul class="actions">
-									<li><input type="submit" value="Send Message"
+									<li><input type="submit" value="제출"
 										class="primary" /></li>
-									<li><input type="reset" value="Reset" /></li>
+									<li><input type="reset" value="수정" /></li>
 								</ul>
 							</div>
 						</div>
