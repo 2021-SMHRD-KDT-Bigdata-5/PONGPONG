@@ -6,8 +6,9 @@
 -->
 <html>
 <head>
-<title>동아리 모집</title>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<title>서지연1</title>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -24,7 +25,6 @@
 
 				<!-- Header -->
 				<header id="header">
-					<!-- #f56a6a 메인 컬러 -->
 					<a href="index1.jsp" class="logo"><strong
 						style="font-size: xx-large; color: #f56a6a;">Campus
 							Community : CC</strong></a>
@@ -42,101 +42,51 @@
 					</ul>
 				</header>
 
-				<!-- Table -->
-				<br>
-				<h3>CAMPUS BOARD</h3>
+				<!-- Content -->
+				<section>
+
+					<!-- <hr class="major" /> -->
+
+					<!-- Elements -->
+					<div class="row gtr-100">
+						<div class="col-10 col-10-medium">
+
+							<!-- Text stuff -->
+							<h3>POST</h3>
+							
+							<hr />
+
+							<h2>금융권 스터디 인원 2명 충원합니다.(조대후문)</h2>
+							<hr />
+							<p>
+								조대후문에서 금융권 NCS, 경제/경영상식, 면접 스터디를 함께할 인원 2명 충원합니다.<br>
+								<br>
+								 기존 멤버 3분은 모두 졸업생으로 이루어져 있구요. 졸업생들로 2명 희망합니다.<br>
+								 <br>
+								  대학교는 어느 곳이든 상관없구요. 위치만 조대 후문이라는 거 알아주셨으면 해요!<br>
+								  <br>
+								  선착순으로 받겠습니다. 채팅 주세요 :)
+							</p>
+							<hr />
 
 
-				<div class="table-wrapper">
-					<table>
-						<thead>
-							<tr>
-								<th>이름</th>
-								<th>제목</th>
-								<th>날짜</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>오동혁</td>
-								<td><a href="dance.jsp">댄스동아리 'CRAZY DANCE'에서 신입회원을 모집합니다.(~08/31)</td>
-								<td>2021-08-11</td>
-							</tr>
-							<tr>
-								<td>권누리</td>
-								<td>캘리그라피 동아리 '바른글씨'에서 새내기들을 찾아요!</td>
-								<td>2021-08-10</td>
-							</tr>
-							<tr>
-								<td>류한나</td>
-								<td>밴드 '울림'에서 보컬 및 기타 포지션을 구합니다.(3학년 이하만)</td>
-								<td>2021-08-09</td>
-							</tr>
-							<tr>
-								<td>최현준</td>
-								<td>영어회화 동아리 'ABC'에서 신입회원을 모집합니다.(전남대)</td>
-								<td>2021-08-05</td>
-							</tr>
-							<tr>
-								<td>서상휘</td>
-								<td>사물놀이 동아리 '얼쑤'에서 인원 2명을 충원합니다.(~09/01)</td>
-								<td>2021-08-04</td>
-							</tr>
-							<tr>
-								<td>서지연</td>
-								<td>맛집탐방 동아리 '광주맛잡이'에서 맛잡이 분들을 모집합니당^^</td>
-								<td>2021-08-01</td>
-							</tr>
-							<tr>
-								<td>김상민</td>
-								<td>등산동아리 '오르자'에서 튼튼하고 건강한 남성분들을 모집합니다!</td>
-								<td>2021-07-28</td>
-							</tr>
-							<tr>
-								<td>신재용</td>
-								<td>소주를 사랑하는 모임 '소사모'에서 소믈리에 분들을 기다립니다.</td>
-								<td>2021-07-25</td>
-							</tr>
-							<tr>
-								<td>황해도</td>
-								<td>패션 동아리 '패살패죽'에서 멋쟁이 분들을 모집합니당^~^</td>
-								<td>2021-07-20</td>
-							</tr>
-							<tr>
-								<td>이호준</td>
-								<td>볼링 동아리 '굴려굴려'에서 신입회원들을 모집합니다.(조선대)</td>
-								<td>2021-07-15</td>
-							</tr>
-						</tbody>
+
 						</div>
+					</div>
 
-
-
-
-
-					</table>
-					
-					<ul class="pagination" style="text-align: center;">
-						<li><span class="button disabled">이전</span></li>
-						<li><a href="#" class="page active">1</a></li>
-						<li><a href="#" class="page">2</a></li>
-						<li><a href="#" class="page">3</a></li>
-						<li><span>&hellip;</span></li>
-						<li><a href="#" class="page">8</a></li>
-						<li><a href="#" class="page">9</a></li>
-						<li><a href="#" class="page">10</a></li>
-						<li><a href="#" class="button">다음</a></li>
+					<ul class="actions">
+						<li><a href="#" class="button primary">수정</a></li>
+						<li><a href="#" class="button">삭제</a></li>
 					</ul>
-					
-				</div>
-				<ul class="actions" style="text-align: right;">
-					<li><a href="write.jsp" class="button primary">작성</a></li>
-					<li><a href="#" class="button">수정</a></li>
-				</ul>
-				
+
+
+
+				</section>
+
 			</div>
 		</div>
 
+	
 		<!-- Sidebar -->
 		<div id="sidebar">
 			<div class="inner">

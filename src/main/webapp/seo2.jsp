@@ -6,8 +6,9 @@
 -->
 <html>
 <head>
-<title>동아리 모집</title>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<title>서지연1</title>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -24,7 +25,6 @@
 
 				<!-- Header -->
 				<header id="header">
-					<!-- #f56a6a 메인 컬러 -->
 					<a href="index1.jsp" class="logo"><strong
 						style="font-size: xx-large; color: #f56a6a;">Campus
 							Community : CC</strong></a>
@@ -42,101 +42,57 @@
 					</ul>
 				</header>
 
-				<!-- Table -->
-				<br>
-				<h3>CAMPUS BOARD</h3>
+				<!-- Content -->
+				<section>
+
+					<!-- <hr class="major" /> -->
+
+					<!-- Elements -->
+					<div class="row gtr-100">
+						<div class="col-10 col-10-medium">
+
+							<!-- Text stuff -->
+							<h3>POST</h3>
+							
+							<hr />
+
+							<h2>맛집탐방 동아리 '광주맛잡이'에서 맛잡이 분들을 모집합니당^^</h2>
+							<hr />
+							<p>
+								광주 최대 규모의 맛집탐방 동아리 '광주맛잡이' 다들 들어보셨죠?.<br>
+								<br>
+								 광주 맛잡이에서 드디어 병아리 맛잡이 분들을 모집합니다 크크크크.<br>
+								 <br>
+								  선발 기준은 지원서를 읽고 총 3명의 맛잡이 분들을 선발할 예정이구요.<br>
+								  <br>
+								  양식은 자유지만 내가 어떤 분야에서 맛잡이인지 입증하실 수 있는 sns링크나 경험들, 포부를 적어주시면 선발 확률이 높아집니다.<br>
+								  <br>
+								  만남은 일주일에 한번 수요일에 수요미식회가 열릴 예정이며, 다양한 블로그 협찬으로 인해 무료로 많은 음식들을 접할 수도 있습니다 크크 <br>
+								  <br>
+								  많은 우리 맛잡이분들의 지원 부탁드립니다 ^^ 안나븅 ^^
+								  <br>
+							
+							</p>
+							<hr />
 
 
-				<div class="table-wrapper">
-					<table>
-						<thead>
-							<tr>
-								<th>이름</th>
-								<th>제목</th>
-								<th>날짜</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
-								<td>오동혁</td>
-								<td><a href="dance.jsp">댄스동아리 'CRAZY DANCE'에서 신입회원을 모집합니다.(~08/31)</td>
-								<td>2021-08-11</td>
-							</tr>
-							<tr>
-								<td>권누리</td>
-								<td>캘리그라피 동아리 '바른글씨'에서 새내기들을 찾아요!</td>
-								<td>2021-08-10</td>
-							</tr>
-							<tr>
-								<td>류한나</td>
-								<td>밴드 '울림'에서 보컬 및 기타 포지션을 구합니다.(3학년 이하만)</td>
-								<td>2021-08-09</td>
-							</tr>
-							<tr>
-								<td>최현준</td>
-								<td>영어회화 동아리 'ABC'에서 신입회원을 모집합니다.(전남대)</td>
-								<td>2021-08-05</td>
-							</tr>
-							<tr>
-								<td>서상휘</td>
-								<td>사물놀이 동아리 '얼쑤'에서 인원 2명을 충원합니다.(~09/01)</td>
-								<td>2021-08-04</td>
-							</tr>
-							<tr>
-								<td>서지연</td>
-								<td>맛집탐방 동아리 '광주맛잡이'에서 맛잡이 분들을 모집합니당^^</td>
-								<td>2021-08-01</td>
-							</tr>
-							<tr>
-								<td>김상민</td>
-								<td>등산동아리 '오르자'에서 튼튼하고 건강한 남성분들을 모집합니다!</td>
-								<td>2021-07-28</td>
-							</tr>
-							<tr>
-								<td>신재용</td>
-								<td>소주를 사랑하는 모임 '소사모'에서 소믈리에 분들을 기다립니다.</td>
-								<td>2021-07-25</td>
-							</tr>
-							<tr>
-								<td>황해도</td>
-								<td>패션 동아리 '패살패죽'에서 멋쟁이 분들을 모집합니당^~^</td>
-								<td>2021-07-20</td>
-							</tr>
-							<tr>
-								<td>이호준</td>
-								<td>볼링 동아리 '굴려굴려'에서 신입회원들을 모집합니다.(조선대)</td>
-								<td>2021-07-15</td>
-							</tr>
-						</tbody>
+
 						</div>
+					</div>
 
-
-
-
-
-					</table>
-					
-					<ul class="pagination" style="text-align: center;">
-						<li><span class="button disabled">이전</span></li>
-						<li><a href="#" class="page active">1</a></li>
-						<li><a href="#" class="page">2</a></li>
-						<li><a href="#" class="page">3</a></li>
-						<li><span>&hellip;</span></li>
-						<li><a href="#" class="page">8</a></li>
-						<li><a href="#" class="page">9</a></li>
-						<li><a href="#" class="page">10</a></li>
-						<li><a href="#" class="button">다음</a></li>
+					<ul class="actions">
+						<li><a href="#" class="button primary">수정</a></li>
+						<li><a href="#" class="button">삭제</a></li>
 					</ul>
-					
-				</div>
-				<ul class="actions" style="text-align: right;">
-					<li><a href="write.jsp" class="button primary">작성</a></li>
-					<li><a href="#" class="button">수정</a></li>
-				</ul>
-				
+
+
+
+				</section>
+
 			</div>
 		</div>
 
+	
 		<!-- Sidebar -->
 		<div id="sidebar">
 			<div class="inner">
