@@ -125,7 +125,7 @@
 					
 					<ul class="pagination" style="text-align: center;">
 						<li><span class="button disabled">이전</span></li>
-						<li><a href="#" class="page active">1</a></li>
+						<li><a href="#" class="page active" >1</a></li>
 						<li><a href="#" class="page">2</a></li>
 						<li><a href="#" class="page">3</a></li>
 						<li><span>&hellip;</span></li>
