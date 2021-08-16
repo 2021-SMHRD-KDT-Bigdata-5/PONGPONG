@@ -97,7 +97,7 @@
 						</div>
 					</div>
 
-				<!-- Sidebar -->
+			<!-- Sidebar -->
 					<div id="sidebar">
 						<div class="inner">
 
@@ -147,20 +147,20 @@
 									</header>
 									<div class="mini-posts">
 										<article>
-											<a href="#" class="image"><img src="images/study.jpg" alt="" /></a>
-											<p>취업 스터디 게시판</p>
+											<a class="image"><img src="images/study.jpg" alt="" /></a>
+											<p style="text-align: center;">취업 스터디 게시판</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/group.jpg" alt="" /></a>
-											<p>동아리 모집 게시판</p>
+											<a class="image"><img src="images/group.jpg" alt="" /></a>
+											<p style="text-align: center;">동아리 모집 게시판</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/buddy.jpg" alt="" /></a>
-											<p>친구 찾기 게시판</p>
+											<a class="image"><img src="images/buddy.jpg" alt="" /></a>
+											<p  style="text-align: center;">친구 찾기 게시판</p>
 										</article>
 									</div>
 									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
+										<li><a href="write.jsp" class="button" style="position: relative; left: 100%;">More</a></li>
 									</ul>
 								</section>
 

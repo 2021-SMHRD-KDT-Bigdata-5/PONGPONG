@@ -67,7 +67,7 @@
 										    <br>
 										</p>
 										<ul class="actions">
-											<li><a href="write.jsp" class="button big">게시판 접속하기</a></li>
+											<li><a href="write.jsp" class="button big" style="position: relative; left: 100%;">게시판 접속하기</a></li>
 										</ul>
 									</div>
 									<span class="image object">
@@ -125,7 +125,7 @@
 											<p>다음 달 1일부터 10월26일까지 온라인 수업<br>
 											실시간·자체 제작 콘텐츠···효율성과 질 높여</p>
 											<ul class="actions">
-												<li><a href="https://newsis.com/view/?id=NISX20210811_0001545340&cID=10201&pID=10200" class="button">More</a></li>
+												<li><a href="https://newsis.com/view/?id=NISX20210811_0001545340&cID=10201&pID=10200" class="button" style="position: relative; left: 200%;">More</a></li>
 											</ul>
 										</article>
 										<article>
@@ -134,7 +134,7 @@
 											<p>개인연구 ‘학문후속세대양성’<br>
 											집단연구 ‘인문한국플러스지원사업’</p>
 											<ul class="actions">
-												<li><a href="http://www.veritas-a.com/news/articleView.html?idxno=381469" class="button">More</a></li>
+												<li><a href="http://www.veritas-a.com/news/articleView.html?idxno=381469" class="button" style="position: relative; left: 200%;">More</a></li>
 											</ul>
 										</article>
 										<article>
@@ -143,7 +143,7 @@
 											<p>'베트남 수출입 전문가 취업 연수 과정 6기' 과정으로 10명의 연수생을 선발해 운영할 예정
 											</p>
 											<ul class="actions">
-												<li><a href="http://www.veritas-a.com/news/articleView.html?idxno=379901" class="button">More</a></li>
+												<li><a href="http://www.veritas-a.com/news/articleView.html?idxno=379901" class="button" style="position: relative; left: 200%;">More</a></li>
 											</ul>
 										</article>
 										<article>
@@ -151,7 +151,7 @@
 											<h3>모교 광주여대서 '양궁 3관왕' 안산 환영식</h3>
 											<p> 광주여자대학교 대학본부에서 사상 첫 올림픽 양궁 3관왕을 달성한 안산선수의 환영식 개최</p>
 											<ul class="actions">
-												<li><a href="https://newsis.com/view/?id=NISI20210804_0017794494" class="button">More</a></li>
+												<li><a href="https://newsis.com/view/?id=NISI20210804_0017794494" class="button" style="position: relative; left: 200%;">More</a></li>
 											</ul>
 										</article>
 										<article>
@@ -159,7 +159,7 @@
 											<h3>광주대, 남구 예방접종센터에 사랑의 도시락 배달</h3>
 											<p>광주대 호심사회봉사단은 남구자원봉사센터와 '호텔외식조리학과에서 직접 만든 사랑의 도시락'을 전달</p>
 											<ul class="actions">
-												<li><a href="https://newsis.com/view/?id=NISX20210812_0001546518&cID=10809&pID=10800" class="button">More</a></li>
+												<li><a href="https://newsis.com/view/?id=NISX20210812_0001546518&cID=10809&pID=10800" class="button" style="position: relative; left: 200%;">More</a></li>
 											</ul>
 										</article>
 										<article>
@@ -167,7 +167,7 @@
 											<h3>순천대학교 발전후원회 신규위원 위촉</h3>
 											<p>반재경 거명이앤씨(주) 회장, 박철휘 베스트약국 대표 신규 위촉</p>
 											<ul class="actions">
-												<li><a href="http://www.newsway.co.kr/news/view?tp=1&ud=2021081022080548676" class="button">More</a></li>
+												<li><a href="http://www.newsway.co.kr/news/view?tp=1&ud=2021081022080548676" class="button" style="position: relative; left: 200%;">More</a></li>
 											</ul>
 										</article>
 									</div>
@@ -205,7 +205,7 @@
 											</ul>
 										</li>
 										<li>
-											<span class="opener">MY PAGE</span>
+											<span class="opener"><a href="history.jsp"></a>MY PAGE</span>
 											<ul>
 												<li><a href="history.jsp">MY HISTORY</a></li>
 												<li><a href="mybuddy.jsp">MY BUDDY</a></li>
@@ -214,7 +214,7 @@
 												
 											</ul>
 										</li>
-										<li><a href="index1.jsp">LOGOUT</a></li>
+										<li><a href="logout.jsp">LOGOUT</a></li>
 										
 									</ul>
 								</nav>
@@ -227,19 +227,19 @@
 									<div class="mini-posts">
 										<article>
 											<a class="image"><img src="images/study.jpg" alt="" /></a>
-											<p>취업 스터디 게시판</p>
+											<p style="text-align: center;">취업 스터디 게시판</p>
 										</article>
 										<article>
 											<a class="image"><img src="images/group.jpg" alt="" /></a>
-											<p>동아리 모집 게시판</p>
+											<p style="text-align: center;">동아리 모집 게시판</p>
 										</article>
 										<article>
 											<a class="image"><img src="images/buddy.jpg" alt="" /></a>
-											<p>친구 찾기 게시판</p>
+											<p  style="text-align: center;">친구 찾기 게시판</p>
 										</article>
 									</div>
 									<ul class="actions">
-										<li><a href="write.jsp" class="button" style="left: 20%;">More</a></li>
+										<li><a href="write.jsp" class="button" style="position: relative; left: 100%;">More</a></li>
 									</ul>
 								</section>
 

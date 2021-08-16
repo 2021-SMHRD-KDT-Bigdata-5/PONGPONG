@@ -133,7 +133,7 @@
 													<dl>
 														<dt>Item1</dt>
 														<dd>
-															<p>Lorem ipsum dolor vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent. Lorem ipsum dolor.</p>
+															<p>dd</p>
 														</dd>
 														<dt>Item2</dt>
 														<dd>

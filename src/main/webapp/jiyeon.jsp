@@ -68,17 +68,17 @@
 
 	
 		<!-- Sidebar -->
-		<div id="sidebar">
-			<div class="inner">
+					<div id="sidebar">
+						<div class="inner">
 
-				<!-- Search -->
-				<section id="search" class="alt">
-					<form method="post" action="#">
-						<input type="text" name="query" id="query" placeholder="Search" />
-					</form>
-				</section>
+							<!-- Search -->
+								<section id="search" class="alt">
+									<form method="post" action="#">
+										<input type="text" name="query" id="query" placeholder="Search" />
+									</form>
+								</section>
 
-				<!-- Menu -->
+							<!-- Menu -->
 								<nav id="menu">
 									<header class="major">
 										<h2>Menu</h2>
@@ -117,20 +117,20 @@
 									</header>
 									<div class="mini-posts">
 										<article>
-											<a href="#" class="image"><img src="images/study.jpg" alt="" /></a>
-											<p>취업 스터디 게시판</p>
+											<a class="image"><img src="images/study.jpg" alt="" /></a>
+											<p style="text-align: center;">취업 스터디 게시판</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/group.jpg" alt="" /></a>
-											<p>동아리 모집 게시판</p>
+											<a class="image"><img src="images/group.jpg" alt="" /></a>
+											<p style="text-align: center;">동아리 모집 게시판</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/buddy.jpg" alt="" /></a>
-											<p>친구 찾기 게시판</p>
+											<a class="image"><img src="images/buddy.jpg" alt="" /></a>
+											<p  style="text-align: center;">친구 찾기 게시판</p>
 										</article>
 									</div>
 									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
+										<li><a href="write.jsp" class="button" style="position: relative; left: 100%;">More</a></li>
 									</ul>
 								</section>
 

@@ -7,6 +7,7 @@
 <html>
 	<head>
 		<title>COMPANY PAGE</title>
+		<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -96,7 +97,7 @@
 						</div>
 					</div>
 
-				<!-- Sidebar -->
+			<!-- Sidebar -->
 					<div id="sidebar">
 						<div class="inner">
 
@@ -114,21 +115,27 @@
 									</header>
 									<ul>
 										<li><a href="index1.jsp">HOMEPAGE</a></li>
-										<li><a href="generic.html">COMPANY</a></li>
-										<li><a href="elements.html">LOGIN</a></li>
-										<li><a href="elements.html">JOIN</a></li>
-										
+										<li><a href="login.jsp">LOGIN</a></li>
+										<li><a href="join.jsp">JOIN</a></li>
+										<li>
+											<span class="opener">BOARD</span>
+											<ul>
+												<li><a href="study.jsp">STUDY CLUB</a></li>
+												<li><a href="campus.jsp">CAMPUS CLUB</a></li>
+												<li><a href="buddy.jsp">FIND BUDDY</a></li>
+											</ul>
+										</li>
 										<li>
 											<span class="opener">MY PAGE</span>
 											<ul>
-												<li><a href="#">HISTORY</a></li>
-												<li><a href="#">CHATTING</a></li>
-												<li><a href="#">PAYMENT</a></li>
-												<li><a href="#">MODIFY</a></li>
+												<li><a href="history.jsp">MY HISTORY</a></li>
+												<li><a href="mybuddy.jsp">MY BUDDY</a></li>
+												<li><a href="myqna.jsp">MY Q&A</a></li>
+												<li><a href="modify.jsp">MODIFY </a></li>
+												
 											</ul>
 										</li>
-										<li><a href="elements.html">Q&A</a></li>
-										<li><a href="elements.html">LOGOUT</a></li>
+										<li><a href="index1.jsp">LOGOUT</a></li>
 										
 									</ul>
 								</nav>
@@ -136,24 +143,24 @@
 							<!-- Section -->
 								<section>
 									<header class="major">
-										<h2>Ante interdum</h2>
+										<h2>Service</h2>
 									</header>
 									<div class="mini-posts">
 										<article>
-											<a href="#" class="image"><img src="images/pic07.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+											<a class="image"><img src="images/study.jpg" alt="" /></a>
+											<p style="text-align: center;">취업 스터디 게시판</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic08.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+											<a class="image"><img src="images/group.jpg" alt="" /></a>
+											<p style="text-align: center;">동아리 모집 게시판</p>
 										</article>
 										<article>
-											<a href="#" class="image"><img src="images/pic09.jpg" alt="" /></a>
-											<p>Aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore aliquam.</p>
+											<a class="image"><img src="images/buddy.jpg" alt="" /></a>
+											<p  style="text-align: center;">친구 찾기 게시판</p>
 										</article>
 									</div>
 									<ul class="actions">
-										<li><a href="#" class="button">More</a></li>
+										<li><a href="write.jsp" class="button" style="position: relative; left: 100%;">More</a></li>
 									</ul>
 								</section>
 
@@ -162,19 +169,13 @@
 									<header class="major">
 										<h2>Get in touch</h2>
 									</header>
-									<p>Sed varius enim lorem ullamcorper dolore aliquam aenean ornare velit lacus, ac varius enim lorem ullamcorper dolore. Proin sed aliquam facilisis ante interdum. Sed nulla amet lorem feugiat tempus aliquam.</p>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">information@untitled.tld</a></li>
-										<li class="icon solid fa-phone">(000) 000-0000</li>
-										<li class="icon solid fa-home">1234 Somewhere Road #8254<br />
-										Nashville, TN 00000-0000</li>
+										<li class="icon solid fa-envelope"><a href="#">CC@gmail.com</a></li>
+										<li class="icon solid fa-phone">(062) 655-3509</li>
+										<li class="icon solid fa-home"> 광주광역시 남구 송암로 60</li>
 									</ul>
 								</section>
 
-							<!-- Footer -->
-								<footer id="footer">
-									<p class="copyright">&copy; Untitled. All rights reserved. Demo Images: <a href="https://unsplash.com">Unsplash</a>. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
-								</footer>
 
 						</div>
 					</div>

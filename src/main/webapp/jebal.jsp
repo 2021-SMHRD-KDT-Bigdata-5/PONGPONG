@@ -102,7 +102,7 @@
 						<br> <br>
 						<dl>
 							<h4>PROFILE PHOTO</h4>
-								<p style="float: left;">(정면 - 옆 - 전신 사진순)</p>
+							<p style="float: left;">(정면 - 옆 - 전신 사진순)</p>
 						</dl>
 
 						<div class="box alt">
@@ -121,6 +121,17 @@
 								</div>
 							</div>
 						</div>
+
+						<!-- okay -->
+
+						<form method="post" enctype="multipart/form-data"
+							action="imgup.jsp">
+							<input type="file" name="filename1" size=40> 
+							<input type="submit" value="업로드">
+						</form>
+
+
+
 						<!-- Break -->
 						<div class="col-12">
 							<ul class="actions">
