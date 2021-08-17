@@ -28,7 +28,7 @@
 
 						<tr>
 							<td><textarea class="form-control" placeholder="content"
-									name="content" maxlength="2000" style="height: 350px;"></textarea></td>
+									name="content" maxlength="2000" style="height: 800px; width:1200px;"></textarea></td>
 						</tr>
 					</tbody>
 				</table>

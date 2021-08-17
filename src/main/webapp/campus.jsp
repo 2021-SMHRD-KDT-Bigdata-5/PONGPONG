@@ -7,7 +7,8 @@
 <html>
 <head>
 <title>동아리 모집</title>
-<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -48,16 +49,22 @@
 
 
 				<div class="table-wrapper">
-					<table>
-						<thead>
-							<tr>
-								<th>이름</th>
-								<th>제목</th>
-								<th>날짜</th>
-							</tr>
-						</thead>
-						<tbody>
-							<tr>
+
+					<div class="container">
+						<div class="row">
+							<table class="table table-striped"
+								style="text-align: center; border: 1px solid #dddddd">
+								<thread>
+								<tr>
+									<th style="background-color: #eeeeee; text-align: center;">writer</th>
+									<th style="background-color: #eeeeee; text-align: center;">contents</th>
+
+									<th style="background-color: #eeeeee; text-align: center;">date</th>
+
+								</tr>
+								</thread>
+								<tbody>
+									<tr>
 								<td>오동혁</td>
 								<td><a href="dance.jsp">댄스동아리 'CRAZY DANCE'에서 신입회원을 모집합니다.(~08/31)</td>
 								<td>2021-08-11</td>
@@ -107,15 +114,17 @@
 								<td>볼링 동아리 '굴려굴려'에서 신입회원들을 모집합니다.(조선대)</td>
 								<td>2021-07-15</td>
 							</tr>
-						</tbody>
+								</tbody>
+
+							</table>
 						</div>
+					</div>
 
 
 
 
 
-					</table>
-					
+
 					<ul class="pagination" style="text-align: center;">
 						<li><span class="button disabled">이전</span></li>
 						<li><a href="#" class="page active">1</a></li>
@@ -127,107 +136,104 @@
 						<li><a href="#" class="page">10</a></li>
 						<li><a href="#" class="button">다음</a></li>
 					</ul>
-					
+
 				</div>
 				<ul class="actions" style="float: right;">
 					<li><a href="write.jsp" class="button primary">작성</a></li>
 					<li><a href="#" class="button" style="float: right;">수정</a></li>
 				</ul>
-				
+
 			</div>
 		</div>
 
 		<!-- Sidebar -->
-					<div id="sidebar">
-						<div class="inner">
+		<div id="sidebar">
+			<div class="inner">
 
-							<!-- Search -->
-								<section id="search" class="alt">
-									<form method="post" action="#">
-										<input type="text" name="query" id="query" placeholder="Search" />
-									</form>
-								</section>
+				<!-- Search -->
+				<section id="search" class="alt">
+					<form method="post" action="#">
+						<input type="text" name="query" id="query" placeholder="Search" />
+					</form>
+				</section>
 
-							<!-- Menu -->
-								<nav id="menu">
-									<header class="major">
-										<h2>Menu</h2>
-									</header>
-									<ul>
-										<li><a href="index1.jsp">HOMEPAGE</a></li>
-										<li><a href="login.jsp">LOGIN</a></li>
-										<li><a href="join.jsp">JOIN</a></li>
-										<li>
-											<span class="opener">BOARD</span>
-											<ul>
-												<li><a href="study.jsp">STUDY CLUB</a></li>
-												<li><a href="campus.jsp">CAMPUS CLUB</a></li>
-												<li><a href="buddy.jsp">FIND BUDDY</a></li>
-											</ul>
-										</li>
-										<li>
-											<span class="opener">MY PAGE</span>
-											<ul>
-												<li><a href="history.jsp">MY HISTORY</a></li>
-												<li><a href="mybuddy.jsp">MY BUDDY</a></li>
-												<li><a href="myqna.jsp">MY Q&A</a></li>
-												<li><a href="modify.jsp">MODIFY </a></li>
-												
-											</ul>
-										</li>
-										<li><a href="index1.jsp">LOGOUT</a></li>
-										
-									</ul>
-								</nav>
+				<!-- Menu -->
+				<nav id="menu">
+					<header class="major">
+						<h2>Menu</h2>
+					</header>
+					<ul>
+						<li><a href="index1.jsp">HOMEPAGE</a></li>
+						<li><a href="login.jsp">LOGIN</a></li>
+						<li><a href="join.jsp">JOIN</a></li>
+						<li><span class="opener">BOARD</span>
+							<ul>
+								<li><a href="study.jsp">STUDY CLUB</a></li>
+								<li><a href="campus.jsp">CAMPUS CLUB</a></li>
+								<li><a href="buddy.jsp">FIND BUDDY</a></li>
+							</ul></li>
+						<li><span class="opener">MY PAGE</span>
+							<ul>
+								<li><a href="history.jsp">MY HISTORY</a></li>
+								<li><a href="mybuddy.jsp">MY BUDDY</a></li>
+								<li><a href="myqna.jsp">MY Q&A</a></li>
+								<li><a href="modify.jsp">MODIFY </a></li>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Service</h2>
-									</header>
-									<div class="mini-posts">
-										<article>
-											<a class="image"><img src="images/study.jpg" alt="" /></a>
-											<p style="text-align: center;">취업 스터디 게시판</p>
-										</article>
-										<article>
-											<a class="image"><img src="images/group.jpg" alt="" /></a>
-											<p style="text-align: center;">동아리 모집 게시판</p>
-										</article>
-										<article>
-											<a class="image"><img src="images/buddy.jpg" alt="" /></a>
-											<p  style="text-align: center;">친구 찾기 게시판</p>
-										</article>
-									</div>
-									<ul class="actions">
-										<li><a href="write.jsp" class="button" style="position: relative; left: 100%;">More</a></li>
-									</ul>
-								</section>
+							</ul></li>
+						<li><a href="index1.jsp">LOGOUT</a></li>
 
-							<!-- Section -->
-								<section>
-									<header class="major">
-										<h2>Get in touch</h2>
-									</header>
-									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">CC@gmail.com</a></li>
-										<li class="icon solid fa-phone">(062) 655-3509</li>
-										<li class="icon solid fa-home"> 광주광역시 남구 송암로 60</li>
-									</ul>
-								</section>
+					</ul>
+				</nav>
 
-
-						</div>
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>Service</h2>
+					</header>
+					<div class="mini-posts">
+						<article>
+							<a class="image"><img src="images/study.jpg" alt="" /></a>
+							<p style="text-align: center;">취업 스터디 게시판</p>
+						</article>
+						<article>
+							<a class="image"><img src="images/group.jpg" alt="" /></a>
+							<p style="text-align: center;">동아리 모집 게시판</p>
+						</article>
+						<article>
+							<a class="image"><img src="images/buddy.jpg" alt="" /></a>
+							<p style="text-align: center;">친구 찾기 게시판</p>
+						</article>
 					</div>
+					<ul class="actions">
+						<li><a href="write.jsp" class="button"
+							style="position: relative; left: 100%;">More</a></li>
+					</ul>
+				</section>
+
+				<!-- Section -->
+				<section>
+					<header class="major">
+						<h2>Get in touch</h2>
+					</header>
+					<ul class="contact">
+						<li class="icon solid fa-envelope"><a href="#">CC@gmail.com</a></li>
+						<li class="icon solid fa-phone">(062) 655-3509</li>
+						<li class="icon solid fa-home">광주광역시 남구 송암로 60</li>
+					</ul>
+				</section>
+
 
 			</div>
+		</div>
 
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
+	</div>
 
-	</body>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
 </html>
