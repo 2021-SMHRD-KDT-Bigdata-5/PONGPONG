@@ -139,8 +139,8 @@
 
 				</div>
 				<ul class="actions" style="float: right;">
-					<li><a href="write.jsp" class="button primary">작성</a></li>
-					<li><a href="#" class="button" style="float: right;">수정</a></li>
+					<li><a href="write3.jsp" class="button primary">작성</a></li>
+					<li><a href="update.jsp" class="button" style="float: right;">수정</a></li>
 				</ul>
 
 			</div>

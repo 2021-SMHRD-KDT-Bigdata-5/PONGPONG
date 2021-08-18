@@ -2,50 +2,48 @@ package bbs;
 
 public class Bbs {
 	
-	private String id;
-	private String name;
-	private String title;
-	private String contents;
-	private String date;
-	private int available;
+	private int bbsID;
+	private String bbsTitle;
+	private String userName;
+	private String bbsDate;
+	private String bbsContents;
+	private int bbsAvailable;
 	
-	public String getId() {
-		return id;
+	public int getBbsID() {
+		return bbsID;
 	}
-	public void setId(String id) {
-		this.id = id;
+	public void setBbsID(int bbsID) {
+		this.bbsID = bbsID;
 	}
-	public String getName() {
-		return name;
+	public String getBbsTitle() {
+		return bbsTitle;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public void setBbsTitle(String bbsTitle) {
+		this.bbsTitle = bbsTitle;
 	}
-	public String getTitle() {
-		return title;
+	public String getUserName() {
+		return userName;
 	}
-	public void setTitle(String title) {
-		this.title = title;
+	public void setUserName(String userName) {
+		this.userName = userName;
 	}
-	public String getContents() {
-		return contents;
+	public String getBbsDate() {
+		return bbsDate;
 	}
-	public void setContents(String contents) {
-		this.contents = contents;
+	public void setBbsDate(String bbsDate) {
+		this.bbsDate = bbsDate;
 	}
-	public String getDate() {
-		return date;
+	public String getBbsContents() {
+		return bbsContents;
 	}
-	public void setDate(String date) {
-		this.date = date;
+	public void setBbsContents(String bbsContents) {
+		this.bbsContents = bbsContents;
 	}
-	public int getAvailable() {
-		return available;
+	public int getBbsAvailable() {
+		return bbsAvailable;
 	}
-	public void setAvailable(int available) {
-		this.available = available;
+	public void setBbsAvailable(int bbsAvailable) {
+		this.bbsAvailable = bbsAvailable;
 	}
-	
-	
-
 }
+	

@@ -29,7 +29,7 @@
 				</tbody>
 
 			</table>
-			<a href="write.jsp" class="btn btn-primary pull-right">write</a>
+			<a href="write3.jsp" class="btn btn-primary pull-right">write</a>
 		</div>
 	</div>
 </body>
