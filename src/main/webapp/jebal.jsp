@@ -99,12 +99,14 @@
 							<input type="radio" id="demo-priority-high" name="demo-priority">
 							<label for="demo-priority-high">둘 다</label> <br>
 						</div>
-						<br> <br>
-						<dl>
-							<h4>PROFILE PHOTO</h4>
-							<p style="float: left;">(정면 - 옆 - 전신 사진순)</p>
-						</dl>
-
+						
+						<div class="col-10 col-12-small">
+							<dl>
+								<h4>PROFILE PHOTO</h4>
+								<p style="float: left;">(정면 - 옆 - 전신 사진순)</p>
+							</dl>
+						</div>
+						
 						<div class="box alt">
 							<div class="row gtr-50 gtr-uniform">
 								<div class="col-4">
@@ -123,12 +125,13 @@
 						</div>
 
 						<!-- okay -->
-
+						<div class="col-10 col-12-small">
 						<form method="post" enctype="multipart/form-data"
 							action="imgup.jsp">
-							<input type="file" name="filename1" size=40> 
-							<input type="submit" value="업로드">
+							<input type="file" name="filename1" size=40> <input
+								type="submit" value="업로드">
 						</form>
+						</div>
 
 
 
@@ -136,13 +139,12 @@
 						<div class="col-12">
 							<ul class="actions">
 								<li><input type="submit" value="제출" class="primary" /></li>
-								<li><input type="reset" value="수정" /></li>
 							</ul>
 						</div>
 					</div>
 				</form>
-
 			</div>
+
 		</div>
 
 		<!-- Sidebar -->
