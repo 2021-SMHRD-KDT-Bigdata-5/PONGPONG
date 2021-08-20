@@ -66,7 +66,8 @@
 											</ul>
 											<h4>
 												박세라(21)<br> 조선대학교 간호학과<br> 취미 : 운동<br> 성격 :
-												다정한<br> 생활패턴 : 나는 아침새 타입!<br> <br>
+												다정한<br> 생활패턴 : 나는 아침새 타입! 　　　　　　　　　　    <button onclick ="window.open('chatting.jsp')"　>채팅</button><br> <br>
+												
 											</h4>
 										</div>
 
@@ -90,10 +91,12 @@
 											<ul class="actions">
 												<li><input type="checkbox" value="7" id="jimin"
 													name="check"> <label for="jimin"><h3>여자3</h3></label></li>
+												
 											</ul>
 											<h4>
 												신지현(24)<br> 광주여자대학교 유아교육과<br> 취미 : 운동<br> 성격
-												: 차분한<br> 생활패턴 : 나는 아침새 타입!<br> <br>
+												: 차분한<br> 생활패턴 : 나는 아침새 타입 ! <br> <br>
+													<!-- <li><a href="from_woman_result1.jsp" class="button">선택</a></li> -->
 											</h4>
 										</div>
 										

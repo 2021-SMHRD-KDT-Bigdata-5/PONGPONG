@@ -12,6 +12,25 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+		
+		<script>
+		
+        window.kakaoAsyncInit = function() {
+            Kakao.Channel.createChatButton({
+              container: '#kakao-talk-channel-chat-button',
+            });
+          };
+        
+          (function(d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = 'https://developers.kakao.com/sdk/js/kakao.channel.min.js';
+            fjs.parentNode.insertBefore(js, fjs);
+          })(document, 'script', 'kakao-js-sdk');
+		
+		</script>
 	</head>
 	<body>
 
@@ -249,7 +268,16 @@
 										<h2>Get in touch</h2>
 									</header>
 									<ul class="contact">
-										<li class="icon solid fa-envelope"><a href="#">CC@gmail.com</a></li>
+										<li class="#"><a href="ChannelPlus.html">    <div
+    id="kakao-talk-channel-chat-button"
+    data-channel-public-id="_sNMes"
+    data-title="consult"
+    data-size="small"
+    data-color="yellow"
+    data-shape="pc"
+    data-support-multiple-densities="true"
+  >
+</div></a></li>
 										<li class="icon solid fa-phone">(062) 655-3509</li>
 										<li class="icon solid fa-home"> 광주광역시 남구 송암로 60</li>
 									</ul>
