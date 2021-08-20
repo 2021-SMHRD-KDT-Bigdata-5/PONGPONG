@@ -18,13 +18,13 @@ public class JoinServiceCon implements Command{
 		String id = request.getParameter("id");
 		String pw = request.getParameter("pw");
 		String name = request.getParameter("name");
-		String nick = request.getParameter("nick");
-		int age = Integer.parseInt(request.getParameter("age"));
+		String university = request.getParameter("university");
 		String gender = request.getParameter("gender");
 		String tel = request.getParameter("tel");
 		String birth = request.getParameter("birth");
+		String address = request.getParameter("address");
 		MemberDAO dao = new MemberDAO();
-		MemberDTO dto = new MemberDTO(id, pw, name, nick, age, gender, tel, birth);
+		MemberDTO dto = new MemberDTO(id, pw, name, university, gender, tel, birth, address);
 		int cnt = dao.join(dto);
 
 		if (cnt > 0) { // select한 데이터가 있다면
@@ -32,7 +32,7 @@ public class JoinServiceCon implements Command{
 			request.setAttribute("id", id);
 			
 			System.out.println("가입 성공..");
-			moveURL = "index.jsp";
+			moveURL = "index1.jsp";
 			// forward 방식
 			//RequestDispatcher dispatcher = request.getRequestDispatcher("join_success.jsp");
 			//dispatcher.forward(request, response);
@@ -40,7 +40,7 @@ public class JoinServiceCon implements Command{
 		} else {
 			//response.sendRedirect("main.jsp");
 			System.out.println("가입 실패..");
-			moveURL = "index.jsp";
+			moveURL = "index1.jsp";
 		}
 		return moveURL;
 	}
