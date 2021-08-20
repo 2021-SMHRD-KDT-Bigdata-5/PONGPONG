@@ -31,6 +31,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-<img src="<%=fullpath%>" width=512 height=384></img>
+<img src="<%=fullpath%>" width=500 height=500></img>
 </body>
 </html>
