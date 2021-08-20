@@ -13,6 +13,8 @@
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
+
+
 </head>
 <body class="is-preload">
 
@@ -75,8 +77,16 @@
 							</p>
 							<hr />
 
-
-
+							<form action ="/blog/reply?cmd=save" method = "post">
+							<input type="hidden" name ="userId" value= "${sessionCope.principla.id }"/>
+							<input type="hidden" name = "boardId" value = "${dto.id }"/>
+							<textarea name ="content" id ="reply__write__form" class ="form-control" placeholder ="입력하세요">
+							</textarea>
+							<button class ="btn btn-primary pull-right">댓글쓰기</button>
+							</form>
+							<div class="clearfix"></div>
+							<hr />
+							
 						</div>
 					</div>
 
