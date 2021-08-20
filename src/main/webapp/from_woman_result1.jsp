@@ -54,76 +54,70 @@
 							<!-- Image -->
 							<h3>Image</h3>
 							<form action="post" action="matchCon">
-							<div class="box alt">
-								<div class="row gtr-50 gtr-uniform">
+								<div class="box alt">
+									<div class="row gtr-50 gtr-uniform">
 
-									<div class="col-6">
-										<span style="width: 500px;" class="image fit"><img
-											src="images/boyoung.jpg" alt="" /></span>
+										<div class="box">
+											<span style="width: 600px;" class="image fit"><img
+												src="images/수지1.jpg" alt="" /></span>
 											<ul class="actions">
-											<li><input type="checkbox"id="boyoung" name="boyoung" value="1" name="check">
-											<label for="boyoung">남자1</label></li>
-										</ul>
-									</div>
+												<li><input type="checkbox" id="boyoung" name="boyoung"
+													value="1" name="check"> <label for="boyoung"><h3>여자1</h3></label></li>
+											</ul>
+											<h4>
+												박세라(21)<br> 조선대학교 간호학과<br> 취미 : 운동<br> 성격 :
+												다정한<br> 생활패턴 : 나는 아침새 타입!<br> <br>
+											</h4>
+										</div>
 
-									<div class="col-6">
-										<span style="width: 500px;" class="image fit"><img
-											src="images/nana.jpg" alt="" /></span>
-																						<ul class="actions">
-											<li><input type="checkbox" value="2"id="nana" name="check">
-											<label for="nana">남자1</label></li>
-									</div>
-									<div class="col-6">
-										<span style="width: 500px;" class="image fit"><img
-											src="images/suzy.jpg" alt="" /></span>
-																						<ul class="actions">
-											<li><input type="checkbox" value="3" id="suzy" name="check">
-											<label for="suzy">수지</label></li>
-									</div>
-									<div class="col-6">
-										<span style="width: 500px;" class="image fit"><img
-											src="images/김고은.jpg" alt="" /></span>
-																						<ul class="actions">
-											<li><input type="checkbox" value="4"id="goun" name="check">
-											<label for="goun">남자2</label></li>
-									</div>
+										<div class="box">
+											<span style="width: 600px;" class="image fit"><img
+												src="images/수지2.jpg" alt="" /></span>
+											<ul class="actions">
+												<li><input type="checkbox" value="4" id="goun"
+													name="check"> <label for="goun"><h3>여자2</h3></label></li>
+											</ul>
+											<h4>
+												서지혜(22)<br> 전남대학교 생물학과<br> 취미 : 독서<br> 성격 :
+												다정한<br> 생활패턴 : 나는 아침새 타입!<br> <br>
+											</h4>
+										</div>
 
-									<div class="col-6">
-										<span style="width: 500px;" class="image fit"><img
-											src="images/김소연.jpg" alt="" /></span>
-																						<ul class="actions">
-											<li><input type="checkbox" value="5"id="soyeon" name="check">
-											<label for="soyeon">김소연</label></li>
-									</div>
-									<div class="col-6">
-										<span style="width: 500px;" class="image fit"><img
-											src="images/이지아.jpg" alt="" /></span>
-																						<ul class="actions">
-											<li><input type="checkbox" value="6" id="zia" name="check">
-											<label for="zia">이지아</label></li>
-									</div>
-									<div class="col-6">
-										<span style="width: 500px;" class="image fit"><img
-											src="images/한지민.jpg" alt="" /></span>
-																						<ul class="actions">
-											<li><input type="checkbox" value="7" id="jimin" name="check">
-											<label for="jimin">한지민</label></li>
-									</div>
-									<div class="col-6">
-										<span style="width: 500px;" class="image fit"><img
-											src="images/전지현.jpg" alt="" /></span>
-																						<ul class="actions">
-											<li><input type="checkbox" value="8" id="jihyeon" name="check">
-											<label for="jihyeon">전지현</label></li>
-									</div>
 
+										<div class="box">
+											<span style="width: 600px;" class="image fit"><img
+												src="images/수지3.jpg" alt="" /></span>
+											<ul class="actions">
+												<li><input type="checkbox" value="7" id="jimin"
+													name="check"> <label for="jimin"><h3>여자3</h3></label></li>
+											</ul>
+											<h4>
+												신지현(24)<br> 광주여자대학교 유아교육과<br> 취미 : 운동<br> 성격
+												: 차분한<br> 생활패턴 : 나는 아침새 타입!<br> <br>
+											</h4>
+										</div>
+										
+										<div class="box">
+											<span style="width: 600px;" class="image fit"><img
+												src="images/수지4.jpg" alt="" /></span>
+											<ul class="actions">
+												<li><input type="checkbox" value="7" id="jimin"
+													name="check"> <label for="jimin"><h3>여자4</h3></label></li>
+											</ul>
+											<h4>
+												김단아(25)<br> 전남대학교 경영학과<br> 취미 : 운동<br> 성격
+												: 시크한<br> 생활패턴 : 나는 아침새 타입!<br> <br>
+											</h4>
+										</div>
+
+
+									</div>
 								</div>
-							</div>
-												<ul class="actions">
-						<li><input type="submit" value="제출" class="primary" /></li>
-						<!-- <li><a href="delete.jsp" class="button">삭제</a></li> -->
-					</ul>
-						</form>
+								<ul class="actions">
+									<li><input type="submit" value="제출" class="primary" /></li>
+									<!-- <li><a href="delete.jsp" class="button">삭제</a></li> -->
+								</ul>
+							</form>
 
 						</div>
 					</div>
