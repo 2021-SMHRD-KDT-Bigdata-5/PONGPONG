@@ -59,37 +59,61 @@
 
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
-											src="images/pic01.jpg" alt="" /></span>
+											src="images/jihoon.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
-											src="images/pic02.jpg" alt="" /></span>
+											src="images/jinwoog.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
-											src="images/pic03.jpg" alt="" /></span>
+											src="images/seojun.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
-											src="images/pic03.jpg" alt="" /></span>
+											src="images/songgang.png" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
-											src="images/pic01.jpg" alt="" /></span>
+											src="images/woobin.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
-											src="images/pic02.jpg" alt="" /></span>
+											src="images/류준열.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
-											src="images/pic03.jpg" alt="" /></span>
+											src="images/이수혁.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
-											src="images/pic03.jpg" alt="" /></span>
+											src="images/정해인.PNG" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 
 								</div>
@@ -98,11 +122,6 @@
 
 						</div>
 					</div>
-
-					<ul class="actions">
-						<li><a href="update.jsp" class="button primary">수정</a></li>
-						<li><a href="delete.jsp" class="button">삭제</a></li>
-					</ul>
 
 
 				</section>

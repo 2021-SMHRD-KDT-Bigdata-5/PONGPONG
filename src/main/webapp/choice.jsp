@@ -60,36 +60,60 @@
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/boyoung.jpg" alt="" /></span>
+											<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/nana.jpg" alt="" /></span>
+											<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/suzy.jpg" alt="" /></span>
+											<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/김고은.jpg" alt="" /></span>
+											<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/김소연.jpg" alt="" /></span>
+											<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/이지아.jpg" alt="" /></span>
+											<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/한지민.jpg" alt="" /></span>
+											<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/전지현.jpg" alt="" /></span>
+											<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
 									</div>
 
 								</div>
@@ -98,12 +122,6 @@
 
 						</div>
 					</div>
-
-					<ul class="actions">
-						<li><a href="update.jsp" class="button primary">수정</a></li>
-						<li><a href="delete.jsp" class="button">삭제</a></li>
-					</ul>
-
 
 				</section>
 
