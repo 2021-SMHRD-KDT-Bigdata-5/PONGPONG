@@ -30,10 +30,10 @@ public class LoginCon extends HttpServlet {
 			HttpSession session = request.getSession();
 			session.setAttribute("member", member);
 			System.out.println("로그인 성공..");
-			response.sendRedirect("index.jsp");
+			response.sendRedirect("index1.jsp");
 		} else {
 			System.out.println("로그인 실패..");
-			response.sendRedirect("index.jsp");
+			response.sendRedirect("login.jsp");
 		}
 
 	}

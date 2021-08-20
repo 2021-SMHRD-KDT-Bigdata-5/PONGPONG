@@ -5,21 +5,21 @@ public class MemberDTO {
 	private String pw;
 	private String name;
 	private String university;
-	private int age;
 	private String gender;
 	private String tel;
 	private String birth;
+	private String address;
 	
-	public MemberDTO(String id, String pw, String name, String university, int age, String gender, String tel, String birth) {
+	public MemberDTO(String id, String pw, String name, String university, String gender, String tel, String birth, String address) {
 		super();
 		this.id = id;
 		this.pw = pw;
 		this.name = name;
 		this.university = university;
-		this.age = age;
 		this.gender = gender;
 		this.tel = tel;
 		this.birth = birth;
+		this.address = address;
 	}
 
 	public String getId() {
@@ -54,13 +54,6 @@ public class MemberDTO {
 		this.university = university;
 	}
 
-	public int getAge() {
-		return age;
-	}
-
-	public void setAge(int age) {
-		this.age = age;
-	}
 
 	public String getGender() {
 		return gender;
@@ -85,6 +78,13 @@ public class MemberDTO {
 	public void setBirth(String birth) {
 		this.birth = birth;
 	}
-	
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}	
 	
 }

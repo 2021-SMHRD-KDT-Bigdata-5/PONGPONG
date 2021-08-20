@@ -1,3 +1,7 @@
+<%@page import="model.MemberDTO"%>
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+	pageEncoding="EUC-KR"%>
+	
 <!DOCTYPE HTML>
 <!--
    Editorial by HTML5 UP
@@ -7,9 +11,8 @@
 <html>
 <head>
 <title>Join</title>
-<%@ page language="java" contentType="text/html; charset=UTF-8"
-	pageEncoding="UTF-8"%>
-<meta charset="utf-8" />
+
+<meta charset="EUC-KR" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
@@ -44,57 +47,60 @@
 
 				<!-- Content -->
 				<section>
-					<!--    - ì´ë¦„ ì•„ì´ë”” ë¹„ë°€ë²ˆí˜¸ ìƒë…„ì›”ì¼ ì „í™”ë²ˆí˜¸ ì£¼ì†Œ ëŒ€í•™êµì´ë¦„ í•™ê³¼ -->
+					<!--    - ÀÌ¸§ ¾ÆÀÌµð ºñ¹Ð¹øÈ£ »ý³â¿ùÀÏ ÀüÈ­¹øÈ£ ÁÖ¼Ò ´ëÇÐ±³ÀÌ¸§ ÇÐ°ú -->
 					<form id="register" action="JoinCon" method="post"
 						class="input-group">
 						<input type="text" class="input-field" name="id" id="input_id"
 							placeholder="User ID" required>
 						<input style="float: right;"  type="button"
-							class="check" value="IDì¤‘ë³µì²´í¬" onclick="idCheck()"><span
-							id="sp"></span>
-							<br> <br> <input type="password"
+							class="check" value="IDÁßº¹Ã¼Å©" onclick="idCheck()">
+						<span id="sp"></span>
+						<br>
+						<br> <input type="password"
 							class="input-field" name="pw" placeholder="Password" required>
 						<br> <input type="text" class="input-field" name="name"
-							placeholder="User Name" required> <br> <input
-							type="text" class="input-field" name="age"
-							placeholder="Year-Month-Day" required> <br>
+							placeholder="User Name" required>
+						<br> <input type="text" class="input-field" name="birth"
+							placeholder="Year-Month-Day" required>
+						<br>
 						<div class="col-10 col-20-small">
-							<input type="radio" id="demo-priority-low" name="demo-priority"
-								checked> <label for="demo-priority-low">ì—¬ì„±</label>
+							<input type="radio" id="priority-low" name="gender" value="¿©¼º" checked>
+							<label for="priority-low">¿©¼º</label>
 
 							<!-- <div class="col-4 col-12-small"> -->
-								<input type="radio" id="demo-priority-high" name="demo-priority">
-								<label for="demo-priority-high">ë‚¨ì„±</label>
+							<input type="radio" id="priority-high" name="gender" value="³²¼º">
+							<label for="priority-high">³²¼º</label>
 							<!-- </div> -->
 						</div>
 
 						<br> <input type="text" class="input-field" name="tel"
-							placeholder="Tel" required> <br> <input type="text"
-							class="input-field" name="birth" placeholder="Address" required>
+							placeholder="Tel" required>
+						<br> <input type="text" class="input-field" name="address"
+							placeholder="Address" required>
 						<br>
 						<div class="col-30">
-							<select name="demo-category" id="demo-category">
+							<select name="university" id="input_university">
 								<option value="">- University -</option>
-								<option value="1">ì „ë‚¨ëŒ€í•™êµ</option>
-								<option value="1">ì¡°ì„ ëŒ€í•™êµ</option>
-								<option value="1">ê´‘ì£¼ëŒ€í•™êµ</option>
-								<option value="1">ê´‘ì£¼ì—¬ìžëŒ€í•™êµ</option>
-								<option value="1">í˜¸ë‚¨ëŒ€í•™êµ</option>
-								<option value="1">ëª©í¬ëŒ€í•™êµ</option>
-								<option value="1">ëª©í¬í•´ì–‘ëŒ€í•™êµ</option>
-								<option value="1">ìˆœì²œëŒ€í•™êµ</option>
-								<option value="1">ë™ì‹ ëŒ€í•™êµ</option>
-								<option value="1">ë‚¨ë¶€ëŒ€í•™êµ</option>
-								<option value="1">ì„œì˜ëŒ€í•™êµ</option>
-								<option value="1">ì†¡ì›ëŒ€í•™êµ</option>
-								<option value="1">ë™ê°•ëŒ€í•™êµ</option>
-								<option value="1">ì „ë‚¨ë„ë¦½ëŒ€í•™êµ</option>
-								<option value="1">ê´‘ì£¼êµìœ¡ëŒ€í•™êµ</option>
-								<option value="1">GIST</option>
+								<option value="Àü³²´ëÇÐ±³">Àü³²´ëÇÐ±³</option>
+								<option value="Á¶¼±´ëÇÐ±³">Á¶¼±´ëÇÐ±³</option>
+								<option value="±¤ÁÖ´ëÇÐ±³">±¤ÁÖ´ëÇÐ±³</option>
+								<option value="±¤ÁÖ¿©ÀÚ´ëÇÐ±³">±¤ÁÖ¿©ÀÚ´ëÇÐ±³</option>
+								<option value="È£³²´ëÇÐ±³">È£³²´ëÇÐ±³</option>
+								<option value="¸ñÆ÷´ëÇÐ±³">¸ñÆ÷´ëÇÐ±³</option>
+								<option value="¸ñÆ÷ÇØ¾ç´ëÇÐ±³">¸ñÆ÷ÇØ¾ç´ëÇÐ±³</option>
+								<option value="¼øÃµ´ëÇÐ±³">¼øÃµ´ëÇÐ±³</option>
+								<option value="µ¿½Å´ëÇÐ±³">µ¿½Å´ëÇÐ±³</option>
+								<option value="³²ºÎ´ëÇÐ±³">³²ºÎ´ëÇÐ±³</option>
+								<option value="¼­¿µ´ëÇÐ±³">¼­¿µ´ëÇÐ±³</option>
+								<option value="¼Û¿ø´ëÇÐ±³">¼Û¿ø´ëÇÐ±³</option>
+								<option value="µ¿°­´ëÇÐ±³">µ¿°­´ëÇÐ±³</option>
+								<option value="Àü³²µµ¸³´ëÇÐ±³">Àü³²µµ¸³´ëÇÐ±³</option>
+								<option value="±¤ÁÖ±³À°´ëÇÐ±³">±¤ÁÖ±³À°´ëÇÐ±³</option>
+								<option value="GIST">GIST</option>
 							</select>
 						</div>
 
-						<br> <a href="join_success.jsp" class="button">JOIN</a>
+						<br><input type="submit" class="button" value="JOIN">
 					</form>
 
 
@@ -157,15 +163,15 @@
 									<div class="mini-posts">
 										<article>
 											<a class="image"><img src="images/study.jpg" alt="" /></a>
-											<p style="text-align: center;">ì·¨ì—… ìŠ¤í„°ë”” ê²Œì‹œíŒ</p>
+											<p style="text-align: center;">Ãë¾÷ ½ºÅÍµð °Ô½ÃÆÇ</p>
 										</article>
 										<article>
 											<a class="image"><img src="images/group.jpg" alt="" /></a>
-											<p style="text-align: center;">ë™ì•„ë¦¬ ëª¨ì§‘ ê²Œì‹œíŒ</p>
+											<p style="text-align: center;">µ¿¾Æ¸® ¸ðÁý °Ô½ÃÆÇ</p>
 										</article>
 										<article>
 											<a class="image"><img src="images/buddy.jpg" alt="" /></a>
-											<p  style="text-align: center;">ì¹œêµ¬ ì°¾ê¸° ê²Œì‹œíŒ</p>
+											<p  style="text-align: center;">Ä£±¸ Ã£±â °Ô½ÃÆÇ</p>
 										</article>
 									</div>
 									<ul class="actions">
@@ -181,7 +187,7 @@
 									<ul class="contact">
 										<li class="icon solid fa-envelope"><a href="#">CC@gmail.com</a></li>
 										<li class="icon solid fa-phone">(062) 655-3509</li>
-										<li class="icon solid fa-home"> ê´‘ì£¼ê´‘ì—­ì‹œ ë‚¨êµ¬ ì†¡ì•”ë¡œ 60</li>
+										<li class="icon solid fa-home"> ±¤ÁÖ±¤¿ª½Ã ³²±¸ ¼Û¾Ï·Î 60</li>
 									</ul>
 								</section>
 
@@ -197,6 +203,32 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
-
-	</body>
+			<script>
+			           function idCheck(){
+            var input = document.getElementById("input_id");
+            //alert(input.value);
+            $.ajax({
+               type : "post", //µ¥ÀÌÅÍ Àü¼Û¹æ½Ä
+               data : {'id' : input.value},
+               url : "IdCheckCon",        //µ¥ÀÌÅÍ¸¦ º¸³¾ ¼­¹ö ÆäÀÌÁö
+                dataType : "text",      //ÀÀ´äµ¥ÀÌÅÍ Å¸ÀÔ
+               // ¿äÃ»¿¡ ¼º°ø½Ã ½ÇÇàÇÒ ÇÔ¼ö Á¤ÀÇ   //true   //false
+               success : function(data){
+                  //alert(data);
+                  document.getElementById("sp");
+                  if(data=="true"){
+                     sp.innerHTML = "  »ç¿ë ºÒ°¡´ÉÇÑ IDÀÔ´Ï´Ù."
+                  }else{
+                     sp.innerHTML = "  »ç¿ë °¡´ÉÇÑ IDÀÔ´Ï´Ù."
+                  }
+               },
+               error : function(){
+                  alert("¿äÃ» ½ÇÆÐ!");
+               }
+            });
+           }
+        </script>
+			
+			
+		</body>
 </html>
