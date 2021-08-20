@@ -6,52 +6,16 @@
 -->
 <html>
 <head>
+<title>서지연1</title>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
-<%@ page import="java.io.PrintWriter"%>
-<%@ page import="bbs.BbsDAO"%>
-<%@ page import="bbs.Bbs"%>
-<title>글쓰기 페이지</title>
 <meta charset="utf-8" />
 <meta name="viewport"
 	content="width=device-width, initial-scale=1, user-scalable=no" />
 <link rel="stylesheet" href="assets/css/main.css" />
 </head>
 <body class="is-preload">
-<%
-	String userName = null;
-	if (session.getAttribute("userName") != null) {
-		userName = (String) session.getAttribute("userName");
-	}
-	if (userName == null) {
-		PrintWriter script = response.getWriter();
-		script.println("<script>");
-		script.println("alert('login haseyo')");
-		script.println("location.href = 'login.jsp");
-		script.println("</script>");
 
-	}
-	int bbsID = 0;
-	if (session.getAttribute("bbsID") != null) {
-		bbsID = Integer.parseInt(request.getParameter("bbsID"));
-	}
-	if (bbsID == 0) {
-		PrintWriter script = response.getWriter();
-		script.println("<script>");
-		script.println("alert('youhyohaji a na')");
-		script.println("location.href = 'bbs.jsp");
-		script.println("</script>");
-	}
-	Bbs bbs = new BbsDAO().getBbs(bbsID);
-	if (!userName.equals(bbs.getUserName())) {
-		PrintWriter script = response.getWriter();
-		script.println("<script>");
-		script.println("alert('GWANHAN 2 X')");
-		script.println("location.href = 'bbs.jsp");
-		script.println("</script>");
-
-	}
-	%>
 	<!-- Wrapper -->
 	<div id="wrapper">
 
@@ -61,7 +25,6 @@
 
 				<!-- Header -->
 				<header id="header">
-					<!-- #f56a6a 메인 컬러 -->
 					<a href="index1.jsp" class="logo"><strong
 						style="font-size: xx-large; color: #f56a6a;">Campus
 							Community : CC</strong></a>
@@ -79,41 +42,74 @@
 					</ul>
 				</header>
 
+				<!-- Content -->
+				<section>
 
-				<!-- Form -->
-				<br>
-				<h3>UPDATE BOARD</h3>
+					<!-- <hr class="major" /> -->
 
-				<form method="post" action="writeAction.jsp">
-					<table class="table table-striped"
-						style="text-align: center; border: 1px solid #dddddd">
-						<thread>
-						<tr>
-							<th colspan="2"
-								style="background-color: #eeeeee; text-align: center;">gesipan
-								yangsick</th>
+					<!-- Elements -->
+					<div class="row gtr-100">
+						<div class="col-10 col-10-medium">
 
-						</tr>
-						</thread>
-						<tbody>
-							<tr>
-								<td><input type="text" class="form-control"
-									placeholder="title" name="title" maxlength="50"></td>
-							</tr>
+							<!-- Image -->
+							<h3>Image</h3>
 
-							<tr>
-								<td><textarea class="form-control" placeholder="content"
-										name="content" maxlength="2000"
-										style="height: 800px; width: 1200px;"></textarea></td>
-							</tr>
-						</tbody>
-					</table>
-					<input a href="gesipan2.jsp" style="float: right;" type="submit"
-						class="btn btn-primary pull-right" value="write">
-				</form>
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/pic01.jpg" alt="" /></span>
+									</div>
+
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/pic02.jpg" alt="" /></span>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/pic03.jpg" alt="" /></span>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/pic03.jpg" alt="" /></span>
+									</div>
+
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/pic01.jpg" alt="" /></span>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/pic02.jpg" alt="" /></span>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/pic03.jpg" alt="" /></span>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/pic03.jpg" alt="" /></span>
+									</div>
+
+								</div>
+							</div>
+
+
+						</div>
+					</div>
+
+					<ul class="actions">
+						<li><a href="update.jsp" class="button primary">수정</a></li>
+						<li><a href="delete.jsp" class="button">삭제</a></li>
+					</ul>
+
+
+				</section>
 
 			</div>
 		</div>
+
 
 		<!-- Sidebar -->
 		<div id="sidebar">

@@ -43,7 +43,9 @@
 				</header>
 
 				<!-- Content -->
+				<h2>Join</h2>
 				<section>
+				
 					<!--    - 이름 아이디 비밀번호 생년월일 전화번호 주소 대학교이름 학과 -->
 					<form id="register" action="JoinCon" method="post"
 						class="input-group">

@@ -80,10 +80,10 @@
 								style="text-align: center; border: 1px solid #dddddd">
 								<thread>
 								<tr>
-									<th style="background-color: #eeeeee; text-align: center;">writer</th>
-									<th style="background-color: #eeeeee; text-align: center;">contents</th>
+									<th style="background-color: #eeeeee; text-align: center;">글쓴이</th>
+									<th style="background-color: #eeeeee; text-align: center;">제목</th>
 
-									<th style="background-color: #eeeeee; text-align: center;">date</th>
+									<th style="background-color: #eeeeee; text-align: center;">날짜</th>
 
 								</tr>
 								</thread>
@@ -168,13 +168,13 @@
 			if (pageNumber != 1) {
 			%>
 			<a href="bbs.jsp?pageNumber=<%=pageNumber - 1%>"
-				class="btn btn-success btn-arraw-left">ejeon</a>
+				class="btn btn-success btn-arraw-left">이전</a>
 			<%
 			}
 			if (bbsDAO.nextPage(pageNumber + 1)) {
 			%>
 			<a href="bbs.jsp?pageNumber=<%=pageNumber + 1%>"
-				class="btn btn-success btn-arraw-left">daum</a>
+				class="btn btn-success btn-arraw-left">다음</a>
 			<%
 			}
 			%>
