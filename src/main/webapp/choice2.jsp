@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-<title>동아리 모집</title>
+<title>서지연1</title>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <meta charset="utf-8" />
@@ -25,7 +25,6 @@
 
 				<!-- Header -->
 				<header id="header">
-					<!-- #f56a6a 메인 컬러 -->
 					<a href="index1.jsp" class="logo"><strong
 						style="font-size: xx-large; color: #f56a6a;">Campus
 							Community : CC</strong></a>
@@ -43,108 +42,93 @@
 					</ul>
 				</header>
 
-				<!-- Table -->
-				<br>
-				<h3>CAMPUS BOARD</h3>
+				<!-- Content -->
+				<section>
+
+					<!-- <hr class="major" /> -->
+
+					<!-- Elements -->
+					<div class="row gtr-100">
+						<div class="col-10 col-10-medium">
+
+							<!-- Image -->
+							<h3>Image</h3>
+
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/jihoon.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
+									</div>
+
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/jinwoog.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/seojun.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/songgang.png" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
+									</div>
+
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/woobin.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/류준열.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/이수혁.jpg" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/정해인.PNG" alt="" /></span>
+										<ul class="actions">
+											<li><a href="#" class="button">선택</a></li>
+										</ul>
+									</div>
+
+								</div>
+							</div>
 
 
-				<div class="table-wrapper">
-
-					<div class="container">
-						<div class="row">
-							<table class="table table-striped"
-								style="text-align: center; border: 1px solid #dddddd">
-								<thread>
-								<tr>
-									<th style="background-color: #eeeeee; text-align: center;">writer</th>
-									<th style="background-color: #eeeeee; text-align: center;">contents</th>
-
-									<th style="background-color: #eeeeee; text-align: center;">date</th>
-
-								</tr>
-								</thread>
-								<tbody>
-									<tr>
-								<td>서지연</td>
-								<td><a href="seo1.jsp">금융권 스터디 인원 2명 충원합니다.(조대후문)</td>
-								<td>2021-08-12</td>
-							</tr>
-							<tr>
-								<td>김상민</td>
-								<td>국민은행 최종면접 스터디 인원 구합니다.</td>
-								<td>2021-08-10</td>
-							</tr>
-							<tr>
-								<td>신재용</td>
-								<td>소방공무원 최종 면접 스터디 구해요!</td>
-								<td>2021-08-09</td>
-							</tr>
-							<tr>
-								<td>김진우</td>
-								<td>토익 스터디(800점 이상만) 모집</td>
-								<td>2021-08-05</td>
-							</tr>
-							<tr>
-								<td>이명훈</td>
-								<td>정보처리기사 실기 스터디 모집합니다.</td>
-								<td>2021-08-04</td>
-							</tr>
-							<tr>
-								<td>김동현</td>
-								<td>토익 스피킹 스터디 그룹 모집합니다(총 4명)</td>
-								<td>2021-08-01</td>
-							</tr>
-							<tr>
-								<td>이호준</td>
-								<td>컴퓨터활용능력 1급 필기 스터디 구합니다.(열심히 하실 분만!!)</td>
-								<td>2021-07-28</td>
-							</tr>
-							<tr>
-								<td>박성현</td>
-								<td>전산회계 자격증 스터디 구해요!(선착순 1명)</td>
-								<td>2021-07-25</td>
-							</tr>
-							<tr>
-								<td>이상준</td>
-								<td>매경테스트 스터디 상무지구에서 모집합니다.</td>
-								<td>2021-07-20</td>
-							</tr>
-							<tr>
-								<td>이기성</td>
-								<td>정보처리기사 필기 스터디(전남대) 모집</td>
-								<td>2021-07-15</td>
-							</tr>
-								</tbody>
-
-							</table>
 						</div>
 					</div>
 
 
-
-
-
-
-					<ul class="pagination" style="text-align: center;">
-						<li><span class="button disabled">이전</span></li>
-						<li><a href="#" class="page active">1</a></li>
-						<li><a href="#" class="page">2</a></li>
-						<li><a href="#" class="page">3</a></li>
-						<li><span>&hellip;</span></li>
-						<li><a href="#" class="page">8</a></li>
-						<li><a href="#" class="page">9</a></li>
-						<li><a href="#" class="page">10</a></li>
-						<li><a href="#" class="button">다음</a></li>
-					</ul>
-
-				</div>
-				<ul class="actions" style="float: right;">
-					<li><a href="write3.jsp" class="button primary">작성</a></li>
-					<li><a href="update.jsp" class="button" style="float: right;">수정</a></li>
-				</ul>
+				</section>
 
 			</div>
 		</div>
+
 
 		<!-- Sidebar -->
 		<div id="sidebar">

@@ -46,8 +46,14 @@
 				</header>
 
 				<!-- Content -->
+				<h2>Join</h2>
 				<section>
+<<<<<<< HEAD
+				
+					<!--    - ì´ë¦„ ì•„ì´ë”” ë¹„ë°€ë²ˆí˜¸ ìƒë…„ì›”ì¼ ì „í™”ë²ˆí˜¸ ì£¼ì†Œ ëŒ€í•™êµì´ë¦„ í•™ê³¼ -->
+=======
 					<!--    - ÀÌ¸§ ¾ÆÀÌµð ºñ¹Ð¹øÈ£ »ý³â¿ùÀÏ ÀüÈ­¹øÈ£ ÁÖ¼Ò ´ëÇÐ±³ÀÌ¸§ ÇÐ°ú -->
+>>>>>>> branch 'master' of https://github.com/2021-SMHRD-KDT-Bigdata-5/PONGPONG.git
 					<form id="register" action="JoinCon" method="post"
 						class="input-group">
 						<input type="text" class="input-field" name="id" id="input_id"

@@ -54,14 +54,14 @@ public class BbsDAO {
 	}
 
 	public int write(String bbsTitle, String userName, String bbsContents) {
-		String SQL = "INSERT INTO bbs (bbsID, bbsTitle, username, bbsDate, bbsContents, bbsAvvailable)vVALUES (?,?,?,?,?,?)";
+		String SQL = "INSERT INTO bbs (bbsID, bbsTitle, userName, bbsDate, bbsContents, bbsAvvailable) VALUES (?,?,?,?,?,?)";
 		try {
 			PreparedStatement pstmt = conn.prepareStatement(SQL);
 			pstmt.setInt(1, getNext());
-			pstmt.setString(2, bbsTitle());
-			pstmt.setString(3, userName());
+			pstmt.setString(2, bbsTitle);
+			pstmt.setString(3, userName);
 			pstmt.setString(4, getDate());
-			pstmt.setString(5, bbsContents());
+			pstmt.setString(5, bbsContents);
 			pstmt.setInt(6, 1);
 			rs = pstmt.executeQuery();
 			return pstmt.executeUpdate();

@@ -3,7 +3,8 @@
 <%@ page import="java.io.PrintWriter"%>
 <%@ page import="bbs.BbsDAO"%>
 <%@ page import="bbs.Bbs"%>
-<% request.setCharacterEncoding("UTF-8"); %>
+<<%-- % request.setCharacterEncoding("UTF-8"); %> --%>
+<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
 <jsp:useBean id="bbs" class="bbs.Bbs" scope="page" />
 <jsp:setProperty name="bbs" property="bbsTitle" />
 <jsp:setProperty name="bbs" property="bbsContents" />
@@ -35,7 +36,7 @@
 		script.println("</script>");
 	} else {
 		BbsDAO BbsDAO = new BbsDAO();
-		int result = BbsDAO.update(bbsID, request.getParameter("bbsTitle"), request.getParameter("bbsContents"));
+		int result = BbsDAO.write(bbs.getBbsTitle(),userName,bbs.getBbsContents());
 		if (result == -1) {
 			PrintWriter script = response.getWriter();
 			script.println("<script>");

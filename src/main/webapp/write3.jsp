@@ -53,8 +53,8 @@
 					<thread>
 					<tr>
 						<th colspan="2"
-							style="background-color: #eeeeee; text-align: center;">gesipan
-							yangsick</th>
+							style="background-color: #eeeeee; text-align: center;">
+							게시판 양식</th>
 
 					</tr>
 					</thread>
@@ -70,8 +70,8 @@
 						</tr>
 					</tbody>
 				</table>
-				<input a href="gesipan2.jsp" style="float: right;" type="submit" class="btn btn-primary pull-right"
-					value="write">
+				<a href="gesipan2.jsp"><input style="float: right;" type="submit" class="btn btn-primary pull-right"
+					value="write"></a>
 			</form>
 
 						</div>
