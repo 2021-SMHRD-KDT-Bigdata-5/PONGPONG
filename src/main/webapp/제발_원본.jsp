@@ -104,50 +104,46 @@
 						<div class="col-10 col-12-small">
 							<dl>
 								<h4>PROFILE PHOTO</h4>
-								<p style="float: left;">(셀카 한장을 올리세요)</p>
+								<p style="float: left;">(정면 - 옆 - 전신 사진순)</p>
 							</dl>
 						</div>
-												<div class="image-container">
-    <img style="width: 500px;" id="preview-image" src="images/pic01.jpg">
-    <input style="display: block;" type="file" id="input-image">
-</div>
-						<script>
-						function readImage(input) {
-						    // 인풋 태그에 파일이 있는 경우
-						    if(input.files && input.files[0]) {
-						        // 이미지 파일인지 검사 (생략)
-						        // FileReader 인스턴스 생성
-						        const reader = new FileReader()
-						        // 이미지가 로드가 된 경우
-						        reader.onload = e => {
-						            const previewImage = document.getElementById("preview-image")
-						            previewImage.src = e.target.result
-						        }
-						        // reader가 이미지 읽도록 하기
-						        reader.readAsDataURL(input.files[0])
-						    }
-						}
-						// input file에 change 이벤트 부여
-						const inputImage = document.getElementById("input-image")
-						inputImage.addEventListener("change", e => {
-						    readImage(e.target)
-						})
-						</script>
-
-
+						
+						<div class="box alt">
+							<div class="row gtr-50 gtr-uniform">
+								<div class="col-4">
+									<span class="image fit"><img src="images/pic01.jpg"
+										alt="" /></span>
+								</div>
+								<div class="col-4">
+									<span class="image fit"><img src="images/pic02.jpg"
+										alt="" /></span>
+								</div>
+								<div class="col-4">
+									<span class="image fit"><img src="images/pic03.jpg"
+										alt="" /></span>
+								</div>
+							</div>
+						</div>
 
 						<!-- okay -->
-
+						<div class="col-10 col-12-small">
+						<form method="post" enctype="multipart/form-data"
+							action="imgup.jsp">
+							<input type="file" name="filename1" size=40> <input
+								type="submit" value="업로드">
+						</form>
+						</div>
 	
 
 
 						<!-- Break -->
-
+						<div class="col-12">
+							<ul class="actions">
+								<li><input type="submit" value="제출" class="primary" /></li>
+							</ul>
+						</div>
 					</div>
 				</form>
-					<ul class="actions">
-											<li><a href="from_woman_result1.jsp" class="button">제출</a></li>
-										</ul>
 			</div>
 
 		</div>
