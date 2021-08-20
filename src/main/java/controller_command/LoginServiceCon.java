@@ -26,11 +26,11 @@ public class LoginServiceCon implements Command{
 		
 			HttpSession session = request.getSession();
 			
-			System.out.println("로그인 성공..");
-			moveURL = "NewIndex.jsp";
+			System.out.println("로그인 성공!");
+			moveURL = "index1.jsp";
 		} else {
 			System.out.println("로그인 실패..");
-			moveURL = "NewIndex.jsp";
+			moveURL = "login.jsp";
 		}
 		return moveURL;
 	}

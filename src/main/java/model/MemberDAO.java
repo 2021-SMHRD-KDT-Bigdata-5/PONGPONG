@@ -18,11 +18,12 @@ import java.sql.SQLException;
 
 				// 로컬호스트 : oracle DB가 설치된 PC의 IP주소 설정
 				String url = "jdbc:oracle:thin:@localhost:1521:xe";
-				String user = "teacher";
-				String pass = "hot";
+				String user = "pong";
+				String pass = "pong";
 
 				// 데이터베이스 연결
 				conn = DriverManager.getConnection(url, user, pass);
+				System.out.println("연결성공");
 
 			} catch (ClassNotFoundException e) {
 				System.out.println("ojdbc6.jar 파일 또는 driver경로 확인!");
@@ -74,13 +75,13 @@ import java.sql.SQLException;
 	            String getPw = rs.getString(2);
 	            String getName = rs.getString(3);
 	            String getUniversity = rs.getString(4);
-	            int getAge = rs.getInt(5);
-	            String getGender = rs.getString(6);
-	            String getTel = rs.getString(7);
-	            String getBirth = rs.getString(8);
+	            String getGender = rs.getString(5);
+	            String getTel = rs.getString(6);
+	            String getBirth = rs.getString(7);
+	            String getAddress = rs.getString(8);
 	            
 	            member = new MemberDTO(getId, getPw, getName, 
-	                  getUniversity, getAge, getGender, getTel, getBirth);
+	                  getUniversity, getGender, getTel, getBirth, getAddress);
 			}
 		} catch (SQLException e) {
 			// DB관련 오류 발생시 실행되는 catch문
@@ -98,7 +99,7 @@ import java.sql.SQLException;
 
 		try {
 			connection();
-
+			System.out.println("JOIN 성공");
 			String sql = "insert into member values(?,?,?,?,?,?,?,?)";
 
 			psmt = conn.prepareStatement(sql);
@@ -106,14 +107,17 @@ import java.sql.SQLException;
 			psmt.setString(2, member.getPw());
 			psmt.setString(3, member.getName());
 			psmt.setString(4, member.getUniversity());
-			psmt.setInt(5, member.getAge());
-			psmt.setString(6, member.getGender());
-			psmt.setString(7, member.getTel());
-			psmt.setString(8, member.getBirth());
-
+			psmt.setString(5, member.getGender());
+			psmt.setString(6, member.getTel());
+			psmt.setString(7, member.getBirth());
+			psmt.setString(8, member.getAddress());
+			
 			cnt = psmt.executeUpdate();
+			// System.out.println("주소: "+member.getAddress());
 
-		} catch (SQLException e) {
+		}
+		
+		catch (SQLException e) {
 			e.printStackTrace();
 		} finally {
 			close();
