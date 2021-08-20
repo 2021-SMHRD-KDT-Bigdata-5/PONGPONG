@@ -7,6 +7,7 @@
 <html>
 	<head>
 	<%@ page language="java" contentType="text/html; charset=UTF-8" pageEncoding="UTF-8"%>
+		
 		<title>글쓰기 페이지</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
@@ -53,7 +54,7 @@
 					<tr>
 						<th colspan="2"
 							style="background-color: #eeeeee; text-align: center;">gesipan
-							write yangsick</th>
+							yangsick</th>
 
 					</tr>
 					</thread>
@@ -69,7 +70,7 @@
 						</tr>
 					</tbody>
 				</table>
-				<input style="float: right;" type="submit" class="btn btn-primary pull-right"
+				<input a href="gesipan2.jsp" style="float: right;" type="submit" class="btn btn-primary pull-right"
 					value="write">
 			</form>
 

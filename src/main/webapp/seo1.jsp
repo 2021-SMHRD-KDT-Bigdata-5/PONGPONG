@@ -75,8 +75,8 @@
 					</div>
 
 					<ul class="actions">
-						<li><a href="#" class="button primary">수정</a></li>
-						<li><a href="#" class="button">삭제</a></li>
+						<li><a href="update.jsp" class="button primary">수정</a></li>
+						<li><a href="delete.jsp" class="button">삭제</a></li>
 					</ul>
 
 
