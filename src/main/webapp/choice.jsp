@@ -53,7 +53,7 @@
 
 							<!-- Image -->
 							<h3>Image</h3>
-
+							<form action="post" action="matchCon">
 							<div class="box alt">
 								<div class="row gtr-50 gtr-uniform">
 
@@ -61,67 +61,75 @@
 										<span style="width: 500px;" class="image fit"><img
 											src="images/boyoung.jpg" alt="" /></span>
 											<ul class="actions">
-											<li><a href="#" class="button">선택</a></li>
+											<li><input type="checkbox"id="boyoung" name="boyoung" value="1" name="check">
+											<label for="boyoung">박보영</label></li>
 										</ul>
 									</div>
 
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/nana.jpg" alt="" /></span>
-											<ul class="actions">
-											<li><a href="#" class="button">선택</a></li>
-										</ul>
+																						<ul class="actions">
+											<li><input type="checkbox" value="2"id="nana" name="check">
+											<label for="nana">나나</label></li>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/suzy.jpg" alt="" /></span>
-											<ul class="actions">
-											<li><a href="#" class="button">선택</a></li>
-										</ul>
+																						<ul class="actions">
+											<li><input type="checkbox" value="3" id="suzy" name="check">
+											<label for="suzy">수지</label></li>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/김고은.jpg" alt="" /></span>
-											<ul class="actions">
-											<li><a href="#" class="button">선택</a></li>
-										</ul>
+																						<ul class="actions">
+											<li><input type="checkbox" value="4"id="goun" name="check">
+											<label for="goun">김고은</label></li>
 									</div>
 
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/김소연.jpg" alt="" /></span>
-											<ul class="actions">
-											<li><a href="#" class="button">선택</a></li>
-										</ul>
+																						<ul class="actions">
+											<li><input type="checkbox" value="5"id="soyeon" name="check">
+											<label for="soyeon">김소연</label></li>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/이지아.jpg" alt="" /></span>
-											<ul class="actions">
-											<li><a href="#" class="button">선택</a></li>
-										</ul>
+																						<ul class="actions">
+											<li><input type="checkbox" value="6" id="zia" name="check">
+											<label for="zia">이지아</label></li>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/한지민.jpg" alt="" /></span>
-											<ul class="actions">
-											<li><a href="#" class="button">선택</a></li>
-										</ul>
+																						<ul class="actions">
+											<li><input type="checkbox" value="7" id="jimin" name="check">
+											<label for="jimin">한지민</label></li>
 									</div>
 									<div class="col-6">
 										<span style="width: 500px;" class="image fit"><img
 											src="images/전지현.jpg" alt="" /></span>
-											<ul class="actions">
-											<li><a href="#" class="button">선택</a></li>
-										</ul>
+																						<ul class="actions">
+											<li><input type="checkbox" value="8" id="jihyeon" name="check">
+											<label for="jihyeon">전지현</label></li>
 									</div>
 
 								</div>
 							</div>
-
+												<ul class="actions">
+						<li><li><a href="from_woman_result1.jsp" class="button">선택</a></li></li>
+						<!-- <li><a href="delete.jsp" class="button">삭제</a></li> -->
+					</ul>
+						</form>
 
 						</div>
 					</div>
+
+
+
 
 				</section>
 

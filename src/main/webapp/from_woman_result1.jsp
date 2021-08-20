@@ -6,7 +6,7 @@
 -->
 <html>
 <head>
-<title>COMPANY PAGE</title>
+<title>서지연1</title>
 <%@ page language="java" contentType="text/html; charset=UTF-8"
 	pageEncoding="UTF-8"%>
 <meta charset="utf-8" />
@@ -42,110 +42,100 @@
 					</ul>
 				</header>
 
-				<!-- Form -->
-				<br>
-				<h3>MY INFO</h3>
-				<br>
+				<!-- Content -->
+				<section>
 
-				<form method="post" action="http://localhost:9000/test1">
-					<div class="row gtr-uniform">
-						<div class="col-6 col-12-xsmall">
-							<input type="text" name="demo-name" id="demo-name" value=""
-								placeholder="이름 - 나이" />
-						</div>
-						<div class="col-6 col-12-xsmall">
-							<input type="email" name="demo-email" id="demo-email" value=""
-								placeholder="대학교 - 학과" />
-						</div>
-						<!-- Break -->
-						<div class="col-12">
-							<select name="demo-category" id="demo-category">
-								<option value="">- 취미 -</option>
-								<option value="1">영화 감상</option>
-								<option value="1">요리</option>
-								<option value="1">운동</option>
-								<option value="1">독서</option>
-							</select>
-						</div>
-						<br>
-						<div class="col-12">
-							<select name="demo-category" id="demo-category">
-								<option value="">- 성격 -</option>
-								<option value="1">다정한</option>
-								<option value="1">시크한</option>
-								<option value="1">재밌는</option>
-								<option value="1">차분한</option>
-							</select>
-						</div>
-						<br>
-						<div class="col-12">
-							<select name="demo-category" id="demo-category">
-								<option value="">- 생활 패턴 -</option>
-								<option value="1">나는 아침새 타입!</option>
-								<option value="1">나는 부엉이 타입!</option>
-							</select>
-						</div>
-						<!-- Break -->
-						<br>
-						<div class="col-4 col-12-small">
-							<input type="radio" id="demo-priority-low" name="demo-priority"
-								checked> <label for="demo-priority-low">여자만</label>
-						</div>
-						<div class="col-4 col-12-small">
-							<input type="radio" id="demo-priority-normal"
-								name="demo-priority"> <label for="demo-priority-normal">남자만</label>
-						</div>
-						<div class="col-4 col-12-small">
-							<input type="radio" id="demo-priority-high" name="demo-priority">
-							<label for="demo-priority-high">둘 다</label> <br>
-						</div>
-						
-						<div class="col-10 col-12-small">
-							<dl>
-								<h4>PROFILE PHOTO</h4>
-								<p style="float: left;">(정면 - 옆 - 전신 사진순)</p>
-							</dl>
-						</div>
-						
-						<div class="box alt">
-							<div class="row gtr-50 gtr-uniform">
-								<div class="col-4">
-									<span class="image fit"><img src="images/pic01.jpg"
-										alt="" /></span>
-								</div>
-								<div class="col-4">
-									<span class="image fit"><img src="images/pic02.jpg"
-										alt="" /></span>
-								</div>
-								<div class="col-4">
-									<span class="image fit"><img src="images/pic03.jpg"
-										alt="" /></span>
+					<!-- <hr class="major" /> -->
+
+					<!-- Elements -->
+					<div class="row gtr-100">
+						<div class="col-10 col-10-medium">
+
+							<!-- Image -->
+							<h3>Image</h3>
+							<form action="post" action="matchCon">
+							<div class="box alt">
+								<div class="row gtr-50 gtr-uniform">
+
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/boyoung.jpg" alt="" /></span>
+											<ul class="actions">
+											<li><input type="checkbox"id="boyoung" name="boyoung" value="1" name="check">
+											<label for="boyoung">남자1</label></li>
+										</ul>
+									</div>
+
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/nana.jpg" alt="" /></span>
+																						<ul class="actions">
+											<li><input type="checkbox" value="2"id="nana" name="check">
+											<label for="nana">남자1</label></li>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/suzy.jpg" alt="" /></span>
+																						<ul class="actions">
+											<li><input type="checkbox" value="3" id="suzy" name="check">
+											<label for="suzy">수지</label></li>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/김고은.jpg" alt="" /></span>
+																						<ul class="actions">
+											<li><input type="checkbox" value="4"id="goun" name="check">
+											<label for="goun">남자2</label></li>
+									</div>
+
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/김소연.jpg" alt="" /></span>
+																						<ul class="actions">
+											<li><input type="checkbox" value="5"id="soyeon" name="check">
+											<label for="soyeon">김소연</label></li>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/이지아.jpg" alt="" /></span>
+																						<ul class="actions">
+											<li><input type="checkbox" value="6" id="zia" name="check">
+											<label for="zia">이지아</label></li>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/한지민.jpg" alt="" /></span>
+																						<ul class="actions">
+											<li><input type="checkbox" value="7" id="jimin" name="check">
+											<label for="jimin">한지민</label></li>
+									</div>
+									<div class="col-6">
+										<span style="width: 500px;" class="image fit"><img
+											src="images/전지현.jpg" alt="" /></span>
+																						<ul class="actions">
+											<li><input type="checkbox" value="8" id="jihyeon" name="check">
+											<label for="jihyeon">전지현</label></li>
+									</div>
+
 								</div>
 							</div>
-						</div>
-
-						<!-- okay -->
-						<div class="col-10 col-12-small">
-						<form method="post" enctype="multipart/form-data"
-							action="imgup.jsp">
-							<input type="file" name="filename1" size=40> <input
-								type="submit" value="업로드">
+												<ul class="actions">
+						<li><input type="submit" value="제출" class="primary" /></li>
+						<!-- <li><a href="delete.jsp" class="button">삭제</a></li> -->
+					</ul>
 						</form>
-						</div>
 
-
-
-						<!-- Break -->
-						<div class="col-12">
-							<ul class="actions">
-								<li><input type="submit" value="제출" class="primary" /></li>
-							</ul>
 						</div>
 					</div>
-				</form>
-			</div>
 
+
+
+
+				</section>
+
+			</div>
 		</div>
+
 
 		<!-- Sidebar -->
 		<div id="sidebar">
